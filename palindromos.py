@@ -15,8 +15,8 @@ def palindromo(palabra):
     
     return es_palindromo
 
-print('Predicción:', palindromo('atpa'),'Realidad: False') # no palíndromo, par
-print('Predicción:', palindromo('atta'),'Realidad: True')  # palíndromo, par
-print('Predicción:', palindromo('atpca'),'Realidad: False') # no palíndromo, impar
-print('Predicción:', palindromo('atpta'),'Realidad: True') # palíndromo, impar
+print('Predicción:', palindromo('atpa'),'\tRealidad: False') # no palíndromo, par
+print('Predicción:', palindromo('atta'),'\tRealidad: True')  # palíndromo, par
+print('Predicción:', palindromo('atpca'),'\tRealidad: False') # no palíndromo, impar
+print('Predicción:', palindromo('atpta'),'\tRealidad: True') # palíndromo, impar
 
