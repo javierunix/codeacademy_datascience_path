@@ -11,6 +11,7 @@ def palindromo(palabra):
         
         if palabra[i] != palabra[-(i + 1)]: # si cuando contamos por una lado un caracter no coincide con el numericamente equivalente del otro lado...
         	es_palindromo = False # ... la palabra no es un palindromo
+        	break
     
     return es_palindromo
 
