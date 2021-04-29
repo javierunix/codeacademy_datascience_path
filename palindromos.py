@@ -1,10 +1,7 @@
-"""
-	Muy sencilla función que determina si una
-	palabra es o no un palindromo
-	"""
-
 def palindromo(palabra):
-
+    """
+    Función muy sencilla que devuelve si una palabra es o no un palídromo.
+    """
     es_palindromo = True # Se define la variable es palindrome como True
     
     for i in range(int(len(palabra)/2)): # vamos caracter a caracter hasta llegar a la mitad de la palabra
@@ -15,8 +12,8 @@ def palindromo(palabra):
     
     return es_palindromo
 
-print('Predicción:', palindromo('atpa'),'\tRealidad: False') # no palíndromo, par
-print('Predicción:', palindromo('atta'),'\tRealidad: True')  # palíndromo, par
-print('Predicción:', palindromo('atpca'),'\tRealidad: False') # no palíndromo, impar
-print('Predicción:', palindromo('atpta'),'\tRealidad: True') # palíndromo, impar
+# print('Predicción:', palindromo('atpa'),'\tRealidad: False') # no palíndromo, par
+# print('Predicción:', palindromo('atta'),'\tRealidad: True')  # palíndromo, par
+# print('Predicción:', palindromo('atpca'),'\tRealidad: False') # no palíndromo, impar
+# print('Predicción:', palindromo('atpta'),'\tRealidad: True') # palíndromo, impar
 
