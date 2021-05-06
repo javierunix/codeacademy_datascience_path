@@ -1,3 +1,4 @@
 {
-    "jupyter.jupyterServerType": "local"
+    "jupyter.jupyterServerType": "local",
+    "python.pythonPath": "/opt/homebrew/Caskroom/miniforge/base/envs/datascience/bin/python"
 }
