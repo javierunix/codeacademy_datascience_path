@@ -682,7 +682,7 @@ Feuerdrache,Steel,Sit Down,60.0,16.0,860.0,0.0,Zierer,Legoland Deutschland,statu
 Project X - Test Strecke,Steel,Sit Down,56.0,16.0,400.0,0.0,Mack,Legoland Deutschland,status.operating
 Barnstormer,Steel,Sit Down,39.0,9.0,222.0,0.0,Zierer,Adventure Island,status.operating
 Green Scream,Steel,Sit Down,,,,0.0,Zierer,Adventure Island,status.operating
-Mighty Mini Mega,Steel,Sit Down,40.0,902.0,233.0,0.0,Pinfari,Adventure Island,status.operating
+Mighty Mini Mega,Steel,Sit Down,40.0,,233.0,0.0,Pinfari,Adventure Island,status.operating
 Cirkusexpressen,Steel,Sit Down,32.0,6.0,199.0,0.0,Zierer,Liseberg,status.closed.definitely
 Lisebergbanan,Steel,Sit Down,80.0,45.0,1548.0,0.0,Schwarzkopf,Liseberg,status.operating
 Cyclops,Steel,Sit Down,93.0,21.0,579.0,0.0,CCI,Mt. Olympus Water & Theme Park,status.operating
@@ -729,7 +729,7 @@ Treno delle miniere,Steel,Sit Down,,,,0.0,Pinfari,Luneur,status.operating
 Tokaida,Steel,Sit Down,40.0,7.0,195.0,0.0,Pinfari,Luneur,status.operating
 Orca Ride,Steel,Sit Down,,12.0,,0.0,Zierer,Boudewijn Seapark,status.operating
 Big Apple,Steel,Sit Down,,,,0.0,na,Codona's Amusement Park,status.operating
-Crazy Train,Steel,Sit Down,40.0,902.0,233.0,0.0,Pinfari,Codona's Amusement Park,status.operating
+Crazy Train,Steel,Sit Down,40.0,,233.0,0.0,Pinfari,Codona's Amusement Park,status.operating
 Looping Star,Steel,Sit Down,,11.0,365.0,1.0,Pinfari,Codona's Amusement Park,status.operating
 Renegade,Wooden,Sit Down,,32.0,950.0,0.0,GCI,Valleyfair,status.operating
 Crush's Coaster,Steel,Spinning,61.0,16.0,424.0,0.0,Maurer,Walt Disney Studios,status.operating
