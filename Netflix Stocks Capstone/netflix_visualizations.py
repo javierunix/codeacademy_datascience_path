@@ -34,10 +34,12 @@
 # - `import pandas as pd`
 # - `import seaborn as sns`
 
-# In[1]:
+# In[25]:
 
 
 from matplotlib import pyplot as plt
+import matplotlib.dates as mdates
+from matplotlib.dates import DateFormatter
 import pandas as pd
 import seaborn as sns
 
@@ -177,7 +179,7 @@ dowjones_stocks_df.head()
 # 6. Be sure to show your plot!
 # 
 
-# In[15]:
+# In[10]:
 
 
 ax = sns.violinplot()
@@ -220,7 +222,7 @@ plt.show()
 # 6. Assing "`"Earnings Per Share in Cents"` as the title of your plot.
 # 
 
-# In[16]:
+# In[11]:
 
 
 x_positions = [1, 2, 3, 4]
@@ -260,7 +262,7 @@ plt.show()
 # 8. Be sure to show your plot!
 # 
 
-# In[17]:
+# In[12]:
 
 
 # The metrics below are in billions of dollars
@@ -328,26 +330,31 @@ plt.show()
 # - Be sure to `.show()` your plots.
 # 
 
-# In[18]:
+# In[39]:
 
 
-plt.figure(figsize=(12, 8))
-
+plt.figure(figsize=(8, 6))
 # Left plot Netflix
 ax1 = plt.subplot(1, 2, 1)
 plt.bar(netflix_stocks_df['Date'], netflix_stocks_df['Price'])
-plt.xticks(netflix_stocks_df['Date'], rotation=45)
-ax1.set_title('Netflix')
-ax1.set_xlabel('Date')
-ax1.set_ylabel('Stock Price')
+plt.xticks(netflix_stocks_df['Date'])
+date_form = DateFormatter("%d")
+ax1.xaxis.set_major_formatter(date_form)
+
+ax1.set_title('Netflix Stock Price (Year 2017)')
+ax1.set_xlabel('Month')
+ax1.set_ylabel('Price')
 
 # Right plot Dow Jones
 ax2 = plt.subplot(1, 2, 2)
 plt.bar(dowjones_stocks_df['Date'], dowjones_stocks_df['Price'])
-plt.xticks(netflix_stocks_df['Date'], rotation=45)
-ax2.set_title('Dow Jones')
-ax2.set_xlabel('Date')
-ax2.set_ylabel('Stock Price')
+plt.xticks(dowjones_stocks_df['Date'])
+ax2.xaxis.set_major_formatter(date_form)
+
+
+ax2.set_title('Dow Jones Stock Price (Year 2017)')
+ax2.set_xlabel('Month')
+ax2.set_ylabel('Price')
 
 
 
@@ -357,6 +364,12 @@ plt.savefig('netflix_vs_dowjones.png')
 
 
 plt.show()
+
+
+# In[ ]:
+
+
+
 
 
 # - How did Netflix perform relative to Dow Jones Industrial Average in 2017?
