@@ -1,3 +1,4 @@
+.vscode*
 .DS_Store
 google_colab_shortcuts.csv
 testing.ipynb
